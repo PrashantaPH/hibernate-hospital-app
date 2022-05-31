@@ -9,7 +9,7 @@ public interface BranchDao {
 
 	public Branch getBranchById(int branch_Id);
 
-	public Branch getBranchByName(int branch_Id);
+	public Branch getBranchByName(String name);
 
 	public boolean deleteBranchById(int branch_Id);
 

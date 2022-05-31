@@ -12,7 +12,7 @@ public interface UserDao {
 
 	public User getUserById(int user_Id);
 
-	public User getUserByRole(String role);
+	public List<User> getUserByRole(String role);
 
 	public User getUserByPhone(long phone);
 

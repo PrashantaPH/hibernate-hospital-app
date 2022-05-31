@@ -14,7 +14,7 @@ public interface EncounterDao {
 
 	public List<Encounter> getAllEncountersByBranch(int branch_Id);
 
-	public boolean deleteEncounterById(int branch_Id, int encounter_Id, int person_Id);
+	public boolean deleteEncounterById(int encounter_Id, int person_Id);
 
 	public boolean updateEncounterById(int encounter_Id,Encounter encounter);
 }

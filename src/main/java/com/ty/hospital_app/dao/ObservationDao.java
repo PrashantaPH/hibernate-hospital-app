@@ -15,5 +15,5 @@ public interface ObservationDao {
 
 	public boolean updateObservation(int observation_Id, Observation observation);
 
-	public List<Branch> getAllObservationByObservations(int encounter_Id);
+	public List<Observation> getAllObservationByObservations(int encounter_Id);
 }
